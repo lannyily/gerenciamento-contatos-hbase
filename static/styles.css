@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('images/fundo.jpeg');
-    background-size: cover;   /* Faz a imagem cobrir todo o corpo */
+    background-size: cover;   
     background-position: center;
     margin: 0;
     padding: 0;
@@ -9,9 +9,9 @@ body {
 }
 
 .containes {
-    display: flex; /* Mantém os contêineres lado a lado */
-    justify-content: center; /* Centraliza os contêineres horizontalmente */
-    gap: 10px; /* Define o espaço entre os contêineres */
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
 }
 
 .container, .container2 {
@@ -22,37 +22,36 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     display: flex;
-    flex-direction: column; /* Coloca os itens em coluna */
+    flex-direction: column;
 }
 
 select {
-    width: 80%; /* Define a largura do select */
-    max-width: 600px; /* Limita a largura máxima */
-    padding: 10px; /* Adiciona um preenchimento interno */
-    border: 2px solid #ccc; /* Borda leve */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: rgba(255, 255, 255, 0.6); /* Fundo branco com leve transparência */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
-    font-size: 16px; /* Tamanho da fonte */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    width: 80%; 
+    max-width: 600px; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    cursor: pointer; 
 }
 
 select:focus {
-    border-color: #4f7196; /* Cor da borda ao focar */
-    outline: none; /* Remove o contorno padrão */
-    box-shadow: 0 0 5px rgba(128, 176, 228, 0.5); /* Sombra ao focar */
+    border-color: #4f7196; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(128, 176, 228, 0.5); 
 }
 
 option {
-    padding: 10px; /* Adiciona um preenchimento nas opções */
-    background-color: rgba(255, 255, 255, 0.6);; /* Fundo das opções */
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 option:hover {
-    background-color: rgba(103, 166, 235, 0.2); /* Efeito de destaque ao passar o mouse */
+    background-color: rgba(103, 166, 235, 0.2); 
 }
-
 
 h1, h2 {
     text-align: center;
@@ -68,7 +67,7 @@ input[type="email"] {
     width: 96%;
     padding: 10px;
     margin: 10px 0;
-    background: rgba(255, 255, 255, 0.6); /* Fundo branco com 80% de opacidade */
+    background: rgba(255, 255, 255, 0.6); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
@@ -93,9 +92,9 @@ ul {
 }
 
 li {
-    background: rgba(255, 255, 255, 0.6); /* Fundo branco com 80% de opacidade */
-    padding: 10px; /* Ajuste o preenchimento conforme necessário */
-    border-radius: 4px; /* Bordas arredondadas para cada item */
-    margin: 5px 0; /* Espaço entre os itens */
+    background: rgba(255, 255, 255, 0.6); 
+    padding: 10px; 
+    border-radius: 4px; 
+    margin: 5px 0; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }

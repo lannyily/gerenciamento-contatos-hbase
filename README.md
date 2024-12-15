@@ -1,1 +1,1 @@
-# gerenciamento-contatos
+Trabalho desenvolvido na disciplina de Banco de Dados II, consiste em uma aplicação desenvolvida com o framework Flask para demonstrar o uso de bancos de dados não relacionais. O projeto implementa um gerenciador de contatos, onde os dados dos usuários são armazenados no banco de dados HBase.

@@ -3,16 +3,12 @@
 Projeto desenvolvido como parte da disciplina **Banco de Dados II**, com o objetivo de demonstrar o uso de **bancos de dados não relacionais**.
 A aplicação consiste em um **gerenciador de contatos** criado com o framework **Flask**, onde os dados são armazenados no **Apache HBase**.
 
----
-
 ## Tecnologias Utilizadas
 
 * **Python 3**
 * **Flask** – Framework web para construção da API e interface.
 * **Apache HBase** – Banco de dados NoSQL orientado a colunas.
 * **HappyBase** – Biblioteca Python para interação com o HBase.
-
----
 
 ## Funcionalidades
 
@@ -25,8 +21,6 @@ A aplicação consiste em um **gerenciador de contatos** criado com o framework 
 
 * `GET /api/Grupos` – Lista todos os grupos cadastrados.
 * `POST /api/Grupos` – Cria um grupo com `idGrupo`, `nomeGrupo` e lista de `contatos`.
-
----
 
 ## Estrutura do Banco (HBase)
 
@@ -41,8 +35,6 @@ A aplicação consiste em um **gerenciador de contatos** criado com o framework 
 | Row Key (idGrupo) | Column Family: `detalhes`                             |
 | ----------------- | ----------------------------------------------------- |
 | `idGrupo`         | `nomeGrupo`, `contatos` (lista separada por vírgulas) |
-
----
 
 ##  Como Executar
 
@@ -63,8 +55,6 @@ python app.py
 ```
 
 Acesse em: [http://localhost:5000](http://localhost:5000)
-
----
 
 ## Exemplo de Requisição (POST /api/Contatos)
 
